@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\Acesso à dados com .NET, C#, Dapper e SQL Server\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj": {}
+    "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\BackendCourse\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\Acesso à dados com .NET, C#, Dapper e SQL Server\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj": {
+    "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\BackendCourse\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\Acesso à dados com .NET, C#, Dapper e SQL Server\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj",
+        "projectUniqueName": "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\BackendCourse\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj",
         "projectName": "BaltaDapper",
-        "projectPath": "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\Acesso à dados com .NET, C#, Dapper e SQL Server\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj",
+        "projectPath": "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\BackendCourse\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj",
         "packagesPath": "C:\\Users\\Lisandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\Acesso à dados com .NET, C#, Dapper e SQL Server\\BaltaDapper\\BaltaDapper\\obj\\",
+        "outputPath": "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\BackendCourse\\BaltaDapper\\BaltaDapper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lisandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
