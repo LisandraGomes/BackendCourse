@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8DCMxsxw6yjBHEi9papDj8Ltf7a12fi0ghGhKW6szJ94K1yxbkz06vOZhf0iuAZksgi/v18EMpL3DgBe4Bv6TA==",
+  "dgSpecHash": "yHmFJ+Yry1OBnZzN9o1+YyroGUlUc2iwkRw8E8vszD3lPwcdAj/EEvazOEdUA1GzpPFRrcRbeZ2l4nqNxUya0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\BackendCourse\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lisandra\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Lisandra\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Lisandra\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Lisandra\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Lisandra\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Lisandra\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.0\\microsoft.data.sqlclient.5.1.0.nupkg.sha512",
