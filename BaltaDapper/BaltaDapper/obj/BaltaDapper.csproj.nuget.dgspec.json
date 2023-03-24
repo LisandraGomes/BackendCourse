@@ -44,9 +44,13 @@
               "target": "Package",
               "version": "[2.0.123, )"
             },
-            "Microsoft.Data.SqlClient": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.1.0, )"
+              "version": "[6.2.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
@@ -60,6 +64,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
