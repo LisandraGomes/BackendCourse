@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj": {}
+    "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\Blog\\Blog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj": {
+    "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\Blog\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj",
-        "projectName": "BaltaDapper",
-        "projectPath": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\BaltaDapper\\BaltaDapper\\BaltaDapper.csproj",
+        "projectUniqueName": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\Blog\\Blog.csproj",
+        "projectName": "Blog",
+        "projectPath": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\Blog\\Blog.csproj",
         "packagesPath": "C:\\Users\\lisandra.gomes.SETRANSP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\BaltaDapper\\BaltaDapper\\obj\\",
+        "outputPath": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\Blog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lisandra.gomes.SETRANSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,20 +37,20 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
               "version": "[2.0.123, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Dapper.Contrib": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[2.0.78, )"
             },
-            "System.Data.SqlClient": {
+            "Microsoft.Data.Sqlclient": {
               "target": "Package",
-              "version": "[4.8.5, )"
+              "version": "[5.1.1, )"
             }
           },
           "imports": [
@@ -65,9 +65,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
