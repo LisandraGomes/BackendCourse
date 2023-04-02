@@ -11,8 +11,8 @@ Comentando os conceitos da programação utilizados:
 <strong>.NET 6 :</strong> teste
 <strong>Dapper :</strong> teste
 <strong>Docker :</strong> teste
-<strong>Azure  :</strong> teste
-<strong>Api    :</strong> teste
+<strong>Azure :</strong> teste
+<strong>Api :</strong> teste
 <strong>Swagger:</strong> teste
 
-
+<img src="https://github.com/LisandraGomes/BackendCourse/blob/Lisandra/BlogApi/imgs/Docker.png">
