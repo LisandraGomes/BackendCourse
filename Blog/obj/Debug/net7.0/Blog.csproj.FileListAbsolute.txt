@@ -1,5 +1,0 @@
-C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\Blog\obj\Debug\net7.0\Blog.csproj.AssemblyReference.cache
-C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\Blog\obj\Debug\net7.0\Blog.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\Blog\obj\Debug\net7.0\Blog.AssemblyInfoInputs.cache
-C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\Blog\obj\Debug\net7.0\Blog.AssemblyInfo.cs
-C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\Blog\obj\Debug\net7.0\Blog.csproj.CoreCompileInputs.cache
