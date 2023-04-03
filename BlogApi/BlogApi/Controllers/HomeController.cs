@@ -20,6 +20,7 @@ namespace BlogApi.Controllers
             var connection = new SqlConnection(_connectionString);
             var repository = new Repository<User>(connection);
             var users = repository.Get();
+
             return Ok(users);
         }
 
@@ -29,9 +30,6 @@ namespace BlogApi.Controllers
             var connection = new SqlConnection(_connectionString);
             var repository = new UserRepository(connection);
             var users = repository.ReadWithRoles();
-            //foreach (var user in users)
-            //    foreach (var role in user.Roles)
-            //        Console.WriteLine($"{user.Name} - {role.Name}");
 
             return Ok(users);
         }
@@ -42,9 +40,6 @@ namespace BlogApi.Controllers
             var connection = new SqlConnection(_connectionString);
             var repository = new Repository<User>(connection);
             var users = repository.Get(id);
-            //foreach (var user in users)
-            //    foreach (var role in user.Roles)
-            //        Console.WriteLine($"{user.Name} - {role.Name}");
 
             return Ok(users);
         } 
@@ -55,9 +50,6 @@ namespace BlogApi.Controllers
             var connection = new SqlConnection(_connectionString);
             var repository = new Repository<User>(connection);
             repository.CreateModel(user);
-            //foreach (var user in users)
-            //    foreach (var role in user.Roles)
-            //        Console.WriteLine($"{user.Name} - {role.Name}");
 
             return Ok($"Usuário {user.Name}, criado.");
         }
@@ -69,6 +61,7 @@ namespace BlogApi.Controllers
             var connection = new SqlConnection(_connectionString);
             var repository = new Repository<Tag>(connection);
             var tags = repository.Get();
+
             return Ok(tags);
         }
 
@@ -78,7 +71,18 @@ namespace BlogApi.Controllers
             var connection = new SqlConnection(_connectionString);
             var repository = new Repository<Tag>(connection);
             var tag = repository.Get(id);
+
             return Ok(tag);
+        }
+
+        [HttpPost("TagCreate")]
+        public async Task<IActionResult> TagUser([FromBody] Tag tag)
+        {
+            var connection = new SqlConnection(_connectionString);
+            var repository = new Repository<Tag>(connection);
+            repository.CreateModel(tag);
+
+            return Ok($"{tag.Name}, criado.");
         }
 
         //Category
@@ -88,6 +92,7 @@ namespace BlogApi.Controllers
             var connection = new SqlConnection(_connectionString);
             var repository = new Repository<Category>(connection);
             var categories = repository.Get();
+
             return Ok(categories);
         }
 
@@ -97,8 +102,19 @@ namespace BlogApi.Controllers
             var connection = new SqlConnection(_connectionString);
             var repository = new Repository<Category>(connection);
             var category = repository.Get(id);
+
             return Ok(category);
-        }        
+        }
+
+        [HttpPost("CategoryCreate")]
+        public async Task<IActionResult> CreateCategory([FromBody] Category category)
+        {
+            var connection = new SqlConnection(_connectionString);
+            var repository = new Repository<Category>(connection);
+            repository.CreateModel(category);
+
+            return Ok($"{category.Name}, criado.");
+        }
 
         //Post
         [HttpGet("Post")]
@@ -107,6 +123,7 @@ namespace BlogApi.Controllers
             var connection = new SqlConnection(_connectionString);
             var repository = new Repository<Post>(connection);
             var categories = repository.Get();
+
             return Ok(categories);
         }
 
@@ -116,9 +133,19 @@ namespace BlogApi.Controllers
             var connection = new SqlConnection(_connectionString);
             var repository = new Repository<Post>(connection);
             var category = repository.Get(id);
+
             return Ok(category);
         }
 
+        [HttpPost("PostCreate")]
+        public async Task<IActionResult> CreatePost([FromBody] Post post)
+        {
+            var connection = new SqlConnection(_connectionString);
+            var repository = new Repository<Post>(connection);
+            repository.CreateModel(post);
+
+            return Ok($"{post.Title}, criado.");
+        }
 
     }
 }
