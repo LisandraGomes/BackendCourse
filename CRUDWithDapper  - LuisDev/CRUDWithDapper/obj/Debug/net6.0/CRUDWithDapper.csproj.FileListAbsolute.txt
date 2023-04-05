@@ -66,3 +66,13 @@ C:\Users\Lisandra\Documents\0-git\Trilha Backend DotNet - Balta\BackendCourse\CR
 C:\Users\Lisandra\Documents\0-git\Trilha Backend DotNet - Balta\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\CRUDWithDapper.pdb
 C:\Users\Lisandra\Documents\0-git\Trilha Backend DotNet - Balta\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\CRUDWithDapper.genruntimeconfig.cache
 C:\Users\Lisandra\Documents\0-git\Trilha Backend DotNet - Balta\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\ref\CRUDWithDapper.dll
+C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\CRUDWithDapper.csproj.AssemblyReference.cache
+C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\CRUDWithDapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\CRUDWithDapper.AssemblyInfoInputs.cache
+C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\CRUDWithDapper.AssemblyInfo.cs
+C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\CRUDWithDapper.csproj.CoreCompileInputs.cache
+C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\CRUDWithDapper.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\CRUDWithDapper.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\CRUDWithDapper.dll
+C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\refint\CRUDWithDapper.dll
+C:\Users\lisandra.gomes.SETRANSP\Videos\Projetos no GIT\BackendCourse\CRUDWithDapper  - LuisDev\CRUDWithDapper\obj\Debug\net6.0\CRUDWithDapper.pdb

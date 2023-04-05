@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\BackendCourse\\CRUDWithDapper  - LuisDev\\CRUDWithDapper\\CRUDWithDapper.csproj": {}
+    "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\CRUDWithDapper  - LuisDev\\CRUDWithDapper\\CRUDWithDapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\BackendCourse\\CRUDWithDapper  - LuisDev\\CRUDWithDapper\\CRUDWithDapper.csproj": {
+    "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\CRUDWithDapper  - LuisDev\\CRUDWithDapper\\CRUDWithDapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\BackendCourse\\CRUDWithDapper  - LuisDev\\CRUDWithDapper\\CRUDWithDapper.csproj",
+        "projectUniqueName": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\CRUDWithDapper  - LuisDev\\CRUDWithDapper\\CRUDWithDapper.csproj",
         "projectName": "CRUDWithDapper",
-        "projectPath": "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\BackendCourse\\CRUDWithDapper  - LuisDev\\CRUDWithDapper\\CRUDWithDapper.csproj",
-        "packagesPath": "C:\\Users\\Lisandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lisandra\\Documents\\0-git\\Trilha Backend DotNet - Balta\\BackendCourse\\CRUDWithDapper  - LuisDev\\CRUDWithDapper\\obj\\",
+        "projectPath": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\CRUDWithDapper  - LuisDev\\CRUDWithDapper\\CRUDWithDapper.csproj",
+        "packagesPath": "C:\\Users\\lisandra.gomes.SETRANSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\CRUDWithDapper  - LuisDev\\CRUDWithDapper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lisandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lisandra.gomes.SETRANSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

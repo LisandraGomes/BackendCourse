@@ -2,6 +2,17 @@
 {
     public class Category
     {
+        public Category(string title, string url, string summary, string description, int order)
+        {
+            Id = new Guid();
+            Title = title;
+            Url = url;
+            Summary = summary;
+            Description = description;
+            Order = order;
+            Featured = true;
+        }
+
         //public Category(string title, string url, string summary, string desciption)
         //{
         //    Id = new Guid();
