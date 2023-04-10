@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 
 namespace BlogApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("")]
     [ApiController]
     public class HomeController : ControllerBase
     {
@@ -13,6 +13,12 @@ namespace BlogApi.Controllers
 
         public HomeController(IConfiguration configuration)
             => _connectionString = configuration.GetConnectionString("BaltaRestore");
+
+        [HttpGet("")]
+        public IActionResult Get()
+        {
+            return Ok("Serviço funcionando.");
+        } 
 
         [HttpGet("Users")]
         public async Task<IActionResult> ReadUsers()
