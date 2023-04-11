@@ -1,6 +1,7 @@
-using Dapper.Contrib.Extensions;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BlogApi.Models
+namespace BlogApiEF.Models
 {
     [Table("[User]")]
     public class User
@@ -18,7 +19,7 @@ namespace BlogApi.Models
         public string Image { get; set; }
         public string Slug { get; set; }
         //Na hora de salvar não inclui
-        [Write(false)]
+        //[Write(false)]
         public List<Role> Roles { get; set; }
     }
 }

@@ -1,6 +1,6 @@
-using Dapper.Contrib.Extensions;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BlogApi.Models
+namespace BlogApiEF.Models
 {
     [Table("Post")]
     public class Post

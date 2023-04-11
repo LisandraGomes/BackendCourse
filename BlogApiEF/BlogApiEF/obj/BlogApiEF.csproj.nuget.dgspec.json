@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\BaltaEntityFramework\\BlogApiEF\\BlogApiEF\\BlogApiEF.csproj": {}
+    "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\Backend .NET\\BlogApiEF\\BlogApiEF\\BlogApiEF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\BaltaEntityFramework\\BlogApiEF\\BlogApiEF\\BlogApiEF.csproj": {
+    "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\Backend .NET\\BlogApiEF\\BlogApiEF\\BlogApiEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\BaltaEntityFramework\\BlogApiEF\\BlogApiEF\\BlogApiEF.csproj",
+        "projectUniqueName": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\Backend .NET\\BlogApiEF\\BlogApiEF\\BlogApiEF.csproj",
         "projectName": "BlogApiEF",
-        "projectPath": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\BaltaEntityFramework\\BlogApiEF\\BlogApiEF\\BlogApiEF.csproj",
+        "projectPath": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\Backend .NET\\BlogApiEF\\BlogApiEF\\BlogApiEF.csproj",
         "packagesPath": "C:\\Users\\lisandra.gomes.SETRANSP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\BackendCourse\\BaltaEntityFramework\\BlogApiEF\\BlogApiEF\\obj\\",
+        "outputPath": "C:\\Users\\lisandra.gomes.SETRANSP\\Videos\\Projetos no GIT\\Backend .NET\\BlogApiEF\\BlogApiEF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lisandra.gomes.SETRANSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,24 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
