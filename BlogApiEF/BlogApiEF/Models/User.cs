@@ -21,5 +21,6 @@ namespace BlogApiEF.Models
         //Na hora de salvar não inclui
         //[Write(false)]
         public List<Role> Roles { get; set; }
+        public List<Post> Posts { get; set; }
     }
 }

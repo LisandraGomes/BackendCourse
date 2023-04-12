@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BlogApiEF.Models
 {
-    [Table("Category")]
+    //[Table("Category")]
     public class Category
     {
         public int Id { get; set; }
