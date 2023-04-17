@@ -1,6 +1,7 @@
 using Blog.Data.Mappings;
 using BlogApiEF.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Data.SqlClient;
 
 namespace Blog.Data
 {
@@ -13,9 +14,8 @@ namespace Blog.Data
         public DbSet<Tag> Tags { get; set; }
         public DbSet<User> Users { get; set; }
        // public DbSet<UserRole> UserRoles { get; set; }
-
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlServer("Server=localhost:1433/,1433;Database=BaltaRestore;User ID=sa;Password=lbg@2022");
+            => options.UseSqlServer("Server=localhost;Database=Blog;User ID=SA;Password=lbg@2022;TrustServerCertificate=True;");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
