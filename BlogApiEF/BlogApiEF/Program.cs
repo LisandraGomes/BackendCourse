@@ -3,8 +3,12 @@ using Blog.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-builder.Services.AddControllers();
+//configura o comportamento(behavior) da api, suprimindo
+//a validação automatica, desativando a validação automatica do ModelState
+builder.Services.AddControllers().ConfigureApiBehaviorOptions( options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+}); ;
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
